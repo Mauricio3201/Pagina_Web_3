@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Básica De AgroSoft</title>
+</head>
+<body style="background-color:rgb(238, 210, 210)"
+
+    <header>
+        <h1>Bienvenido a mi Página De AgroSoft</h1>
+        <h2>Un ejemplo con HTML puro</h2>
+        
+    
+        <nav>
+            <ol>
+                <li><a href="#seccion1">Sección de Hipervinculos 1</a></li>
+                <li><a href="#seccion2">Sección Imagenes 2</a></li>
+                <li><a href="#formulario">Formulario</a></li>
+                <li><a href="#tabla">Tabla</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    
+    <section id="seccion1">
+        <h2>Sección 1: Hipervínculos</h2>
+        <p>
+            Aquí encontrarás algunos enlaces:  
+            - <a href="https://textilycuero.blogspot.com/" target="_blank">Ir al Foro CENTRO DE TEXTIL Y CUERO</a>  
+            - <a href="https://www.youtube.com/watch?v=cqMfPS8jPys&list=PLhSj3UTs2_yVHt2DgHky_MzzRC58UHE4z" target="_blank">Ver un video en YouTube sobre HTML Basico</a>
+        </p>
+    </section>
+
+    
+    <section id="seccion2">
+        <h2>Sección 2: Imágenes</h2>
+        <p>
+            <b>Imagen local:</b><br>
+            <img src="agro.jpeg" alt="Imagen local" width="200"><br><br>
+            
+            <b>Imagen desde un enlace:</b><br>
+            <a href="https://a.storyblok.com/f/160385/1354x533/c9060c069c/sector-agro.webp/m/?w=256&q=100" target="_blank">
+                <img src="https://a.storyblok.com/f/160385/1354x533/c9060c069c/sector-agro.webp/m/?w=256&q=100" alt="Imagen con enlace" width="200">
+            </a>
+        </p>
+    </section>
+
+   
+    <section id="formulario">
+        <h2>Formulario de Contacto</h2>
+        <form action="#" method="post">
+            <p>
+                Nombre: <input type="text" placeholder="Escribe tu nombre">
+            </p>
+            <p>
+                Fecha de nacimiento: <input type="date">
+            </p>
+            <p>
+                Género: 
+                <input type="radio" name="genero"> Hombre
+                <input type="radio" name="genero"> Mujer
+            </p>
+            <p>
+                Intereses: 
+                <input type="checkbox"> Programación
+                <input type="checkbox"> Diseño
+                <input type="checkbox"> Música
+            </p>
+            <p>
+                <input type="submit" value="Enviar formulario">
+            </p>
+        </form>
+    </section>
+
+    <section id="tabla">
+        <h2>Tabla de Personal Agrosoft</h2>
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Ocupación</th>
+            </tr>
+            <tr>
+                <td>Mauricio Roncancio</td>
+                <td>22</td>      
+                <td><u><b><font color="blue">Desarrollador</font></b></u></td>
+            </tr> 
+            <tr>
+                <td>Jhon Figueroa</td>
+                <td>22</td>
+                <td><u><b><font color="red">Contador</font></b></u></td>
+            </tr>
+            <tr>
+                <td>Sebastian Fernandez</td>
+                <td>20</td>
+                <td><u><b><font color="narange">Diseñador</font></b></u></td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Texto con Íconos y Estilos</h2>
+        <p> <b>Agrosoft</b></p>
+        <p><u><font color="green">AgroSoft</font></u></p>
+        <p>AgroSoft</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Página Básica en HTML - Creada por Deivid Mauricio Roncancio</p>
+    </footer>
+
+</body>
+</html>
